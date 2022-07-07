@@ -41,13 +41,4 @@ La aplicación deberá ser desarrollada en Github. Para crear grupos de trabajo 
 - Uso de JSON
 - Interfaz Gráfica de la aplicación
 
-## Entrega y Presentación
-
-Para la entrega debe considerar lo siguiente:
-
-- La tarea puede realizarse de forma individual o en grupos de 2 personas.
-- Plazo de entrega es el **20 de Mayo de 2022**.
-- Se deberá subir el archivo APK a Adecca y el código fuente en Github Classroom.
-- Los grupos deberán presentar sus aplicaciones al resto del curso.
-
 
