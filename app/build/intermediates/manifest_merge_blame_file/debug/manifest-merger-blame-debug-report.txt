@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:8:5-81
+13-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:9:5-85
+14-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:9:22-82
+15
+16    <uses-feature android:name="android.hardware.location.gps" />
+16-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:11:5-66
+16-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:11:19-63
+17
+18    <application
+18-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:13:5-35:19
+19        android:allowBackup="true"
+19-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\Mati\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.WeatherApp" >
+27-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:19:9-48
+28        <activity
+28-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:20:9-22:40
+29            android:name="com.example.weatherapp.ActivityC"
+29-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:21:13-38
+30            android:exported="false" />
+30-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:22:13-37
+31        <activity
+31-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:23:9-25:40
+32            android:name="com.example.weatherapp.ActivityB"
+32-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:24:13-38
+33            android:exported="false" />
+33-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:25:13-37
+34        <activity
+34-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:26:9-34:20
+35            android:name="com.example.weatherapp.MainActivity"
+35-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:27:13-41
+36            android:exported="true" >
+36-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:28:13-36
+37            <intent-filter>
+37-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:30:17-69
+38-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:32:17-77
+40-->D:\Proyectos\WeatherAppMatis\app\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mati\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+45            android:name="com.squareup.picasso.PicassoProvider"
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mati\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+46            android:authorities="com.example.weatherapp.com.squareup.picasso"
+46-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mati\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+47            android:exported="false" />
+47-->[com.squareup.picasso:picasso:2.71828] C:\Users\Mati\.gradle\caches\transforms-3\94cc5caab3398281ed773abedd94675e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+48
+49        <activity
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\8a98227cf0c04eaba7da96738f5732a0\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\8a98227cf0c04eaba7da96738f5732a0\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\8a98227cf0c04eaba7da96738f5732a0\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\8a98227cf0c04eaba7da96738f5732a0\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\740e301b3f8f9eea03694c68c0afe023\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\740e301b3f8f9eea03694c68c0afe023\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mati\.gradle\caches\transforms-3\740e301b3f8f9eea03694c68c0afe023\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+60            android:authorities="com.example.weatherapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mati\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mati\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mati\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mati\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
