@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityB">
+
+
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_x="1dp"
+        android:layout_y="12dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_x="-1dp"
+        android:layout_y="62dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/grados"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:layout_x="66dp"
+            android:layout_y="179dp"
+            android:text="TextView"
+            android:textSize="70dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/clima"
+        android:layout_width="124dp"
+        android:layout_height="49dp"
+        android:layout_x="138dp"
+        android:layout_y="133dp"
+        android:gravity="center"
+        android:text="Clima"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="533dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#66AEECEF">
+
+        <ImageView
+            android:id="@+id/imagenClima15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:id="@+id/nombreClima5"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tempMinMax5"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="160dp"
+            android:gravity="center"
+            android:text="Temp Minima"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="226dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#66AEECEF">
+
+        <ImageView
+            android:id="@+id/imagenClima11"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:id="@+id/nombreClima1"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tempMinMax1"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="160dp"
+            android:gravity="center"
+            android:text="Temp Minima"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="456dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#66AEECEF">
+
+        <ImageView
+            android:id="@+id/imagenClima14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:id="@+id/nombreClima4"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tempMinMax4"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="160dp"
+            android:gravity="center"
+            android:text="Temp Minima"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="378dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#66AEECEF">
+
+        <ImageView
+            android:id="@+id/imagenClima13"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:id="@+id/nombreClima3"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tempMinMax3"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="160dp"
+            android:gravity="center"
+            android:text="Temp Minima"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="303dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#66AEECEF">
+
+        <ImageView
+            android:id="@+id/imagenClima12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:id="@+id/nombreClima2"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tempMinMax2"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="160dp"
+            android:gravity="center"
+            android:text="Temp Minima"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</AbsoluteLayout>
